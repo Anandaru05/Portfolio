@@ -46,7 +46,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 50vh;
     padding:1rem;
 }
 
@@ -80,6 +80,14 @@ section{
 
 .heading span{
     color:#FF6363;
+}
+
+.heading1{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 2rem;
+    padding:1rem;
+    color:#fff;
 }
 
 header{
@@ -286,13 +294,11 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding:2rem 0;
-    
+    padding:2rem 0; 
 }
-
 .portfolio .box-container .box{
-    height: 20rem;
-    width:26rem;
+    height: 25rem;
+    /* width:26rem; */
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
@@ -304,9 +310,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
-    
-    
+    object-fit: cover;   
 }
 
 .portfolio .box-container .box:hover img{
@@ -380,6 +384,13 @@ header .navbar ul li a:hover{
     right: 2rem;
     z-index: 1000;
     display: none;
+}
+.para{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+    line-height: 3rem;
+    text-align: center;
 }
 
 /* media queries  */
